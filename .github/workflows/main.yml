@@ -48,7 +48,7 @@ jobs:
     - name: Commit to the repo
       run: |
         git config --global user.name "orbitrover/github-profile-status"
-        git config --global user.email "github-stats[bot]@orbitrover.github.io"
+        git config --global user.email "orbitrover@gmail.com"
         git add .
         # Force the build to succeed, even if no files were changed
         git commit -m 'Update generated files' || true
